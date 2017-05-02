@@ -4,6 +4,7 @@
 ---- You are allowed to change anything you like. Find out more Awesome Templates @ wpfreeware.com
 ---- Read License-readme.txt file to learn more.
 --><head>
+
 		<title>Kharagpur Pvt. I.T.I</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -92,7 +93,7 @@ Contact-7001273957</h3>
 			<li><a href="contact.html"> Contact</a>
 			</li>
             
-      </ul><select class="selectnav" id="selectnav1"><option value="">-Navigation-</option><option value="http://www.kpiti.org/index.php"> Home</option><option value="http://www.kpiti.org/right.html#"> About</option><option value="http://www.kpiti.org/about.html">- Introduction of the institute</option><option value="http://www.kpiti.org/chaiman.html">- Chairman &amp; Members</option><option value="http://www.kpiti.org/faculty_list.php">- Faculty (Technical Staff)</option><option value="http://www.kpiti.org/state.html">- State Directorate</option><option value="http://www.kpiti.org/administrative.html">- Administrative Staff</option><option value="http://www.kpiti.org/right.html#"> Information</option><option value="http://www.kpiti.org/trade.html">- Trades Affiliated to NCVT and SCVT</option><option value="http://www.kpiti.org/summary1.html">- Summary of Trades 1</option><option value="http://www.kpiti.org/summary2.html">- Summary of Trades 2</option><option value="http://www.kpiti.org/court.html">- Court Case and Status</option><option value="http://www.kpiti.org/right.html" selected="">- Right to Information</option><option value="http://www.kpiti.org/right.html#"> Infrastucture</option><option value="http://www.kpiti.org/libary.html">- Library</option><option value="http://www.kpiti.org/sport.html">- Sports/Recreation</option><option value="http://www.kpiti.org/curriculam.html">- Extra Curricular activities</option><option value="http://www.kpiti.org/right.html#"> Admission</option><option value="http://www.kpiti.org/application_form.html">- Application Format</option><option value="http://www.kpiti.org/admision.html">-  Admission Criteria</option><option value="http://www.kpiti.org/ratings.html">- Rating of Institute</option><option value="http://www.kpiti.org/grievance.html">- Grievance Redressal Mechanism</option><option value="http://www.kpiti.org/rules.html">- General Rules &amp; Regulations</option><option value="http://www.kpiti.org/right.html#"> Performance</option><option value="http://www.kpiti.org/quality.html">- Quality Monitoring</option><option value="http://www.kpiti.org/achievement.html">- Achievements by Trainees</option><option value="http://www.kpiti.org/overall_result.php">- Overall Results</option><option value="http://www.kpiti.org/certificate.html">- Certificates issued to Trainees</option><option value="http://www.kpiti.org/placement.html">- Placement</option><option value="http://www.kpiti.org/gallery.html"> Gallery</option><option value="http://www.kpiti.org/fund.html"> Fund Status</option><option value="http://www.kpiti.org/news.html"> News Events</option><option value="http://www.kpiti.org/order.html"> Order Issued</option><option value="http://www.kpiti.org/contact.html"> Contact</option></select>
+      </ul><select class="selectnav" id="selectnav1"><option value="">-Navigation-</option><option value="http://www.kpiti.org/index.php"> Home</option><option value="http://www.kpiti.org/curriculam.html#"> About</option><option value="http://www.kpiti.org/about.html">- Introduction of the institute</option><option value="http://www.kpiti.org/chaiman.html">- Chairman &amp; Members</option><option value="http://www.kpiti.org/faculty_list.php">- Faculty (Technical Staff)</option><option value="http://www.kpiti.org/state.html">- State Directorate</option><option value="http://www.kpiti.org/administrative.html">- Administrative Staff</option><option value="http://www.kpiti.org/curriculam.html#"> Information</option><option value="http://www.kpiti.org/trade.html">- Trades Affiliated to NCVT and SCVT</option><option value="http://www.kpiti.org/summary1.html">- Summary of Trades 1</option><option value="http://www.kpiti.org/summary2.html">- Summary of Trades 2</option><option value="http://www.kpiti.org/court.html">- Court Case and Status</option><option value="http://www.kpiti.org/right.html">- Right to Information</option><option value="http://www.kpiti.org/curriculam.html#"> Infrastucture</option><option value="http://www.kpiti.org/libary.html">- Library</option><option value="http://www.kpiti.org/sport.html">- Sports/Recreation</option><option value="http://www.kpiti.org/curriculam.html" selected="">- Extra Curricular activities</option><option value="http://www.kpiti.org/curriculam.html#"> Admission</option><option value="http://www.kpiti.org/application_form.html">- Application Format</option><option value="http://www.kpiti.org/admision.html">-  Admission Criteria</option><option value="http://www.kpiti.org/ratings.html">- Rating of Institute</option><option value="http://www.kpiti.org/grievance.html">- Grievance Redressal Mechanism</option><option value="http://www.kpiti.org/rules.html">- General Rules &amp; Regulations</option><option value="http://www.kpiti.org/curriculam.html#"> Performance</option><option value="http://www.kpiti.org/quality.html">- Quality Monitoring</option><option value="http://www.kpiti.org/achievement.html">- Achievements by Trainees</option><option value="http://www.kpiti.org/overall_result.php">- Overall Results</option><option value="http://www.kpiti.org/certificate.html">- Certificates issued to Trainees</option><option value="http://www.kpiti.org/placement.html">- Placement</option><option value="http://www.kpiti.org/gallery.html"> Gallery</option><option value="http://www.kpiti.org/fund.html"> Fund Status</option><option value="http://www.kpiti.org/news.html"> News Events</option><option value="http://www.kpiti.org/order.html"> Order Issued</option><option value="http://www.kpiti.org/contact.html"> Contact</option></select>
                                     </nav>
 				</div>
 			</div>
@@ -102,29 +103,42 @@ Contact-7001273957</h3>
 			<div class="clearfix wrapper main_content_area">
                                                                         <!--Customize Content-->
 				<div class="clearfix main_content floatleft">
-                                                                            <b style="font-size:24px; color:#09C; padding:10px 0 0 0px;">Right to Information</b><br><br>
-                                                                                <table id="gradient-style" summary="Meeting Results">
-                                                                                    <thead>
-                                                                                        <tr>
-                                                                                                        <th>Appellate Officer Name</th>
-                                                                                                        <th>Designation</th>
-                                                                                                        <th>Contact No.</th>
-                                                                                                </tr>
+                                                                            <b style="font-size:24px; color:#09C; padding:10px 0 0 0px;">Extra Curricular activities</b><br><br>
+                                                                                Extra Curricular activities will goes here…
+																				
 
-                                                                                            </thead>
+																				<?php
+/*    Using "mysqli" instead of "mysql" that is obsolete.
+*     Utilisation de "mysqli" à la place de "mysql" qui est obsolète.
+* Change the value of parameter 3 if you have set a password on the root userid
+* Changer la valeur du 3e paramètre si vous avez mis un mot de passe à root
+*/
+$mysqli = new mysqli('127.0.0.1', 'root', '','testdb');
 
-                                                                                    <tbody>
+if ($mysqli->connect_error) {
+    die('Connect Error (' . $mysqli->connect_errno . ') '
+            . $mysqli->connect_error);
+}
+echo 'Connection OK';
+$sql = "SELECT roll,name,sub1,sub2 FROM testtab";
+$result = $mysqli->query($sql);
+ECHO "<table border=1>";
+ECHO "<tr><td>ROLL<TD>NAME<TD>SUB1<TD>SUB2";
 
+if ($result->num_rows > 0) {
+    // output data of each row
+while ($row = $result->fetch_assoc()){
 
-                                                                                                <tr>
-                                                                                                        <td>CPIO</td>
-                                                                                                        <td>  </td>
-                                                                                                        <td> </td>
+echo "<TR>"."<TD>".$row['roll']."<TD>".$row['name']."<TD>".$row['sub1']."<TD>".$row['sub2'];
+}
+  
+} else {
+    echo "0 results";
+}
+ECHO"</TABLE>";
+$mysqli->close();
+?>
 
-                                                                                                </tr>
-
-                                                                                        </tbody>
-                                                                                </table>
 					
 					
 					

@@ -9,12 +9,11 @@
 <head>
 		<title>Kharagpur Pvt. I.T.I</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<style>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<style>
 .mySlides {display:none}
 .demo {cursor:pointer}
 </style>
-		
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!--Oswald Font -->
@@ -35,7 +34,8 @@
 				<div class="clearfix header_top">
 					<div class="clearfix logo floatleft">
 						<a href=""><h1><span></span>Kharagpur Pvt. Industrial Training Institute </h1></a>
-                                                                                                           <h3 style="color: #ffffff;">Kharagpur. Contact No : 9800045914 </h3>
+                                                                                                           <h3 style="color: #ffffff;">NH6,Sahachawk Word no.12, Kharagpur.Poschim MediniPur, pincode-721301
+Contact-7001273957</h3>
                                   
 					</div>
 					
@@ -66,7 +66,7 @@
             <ul>
 					<li><a href="libary.html">Library</a></li>
 					<li><a href="sport.html">Sports/Recreation</a></li>
-					<li><a href="curriculam.html">Extra Curricular activities</a></li>
+					<li><a href="curriculam.php">Extra Curricular activities</a></li>
 			  </ul>
 			</li>
             <li id="dropdown"><a href="#"> Admission</a>
@@ -105,67 +105,73 @@
 		</section>
 		
 		<section id="content_area">
+
+		
+
+		
 			<div class="clearfix wrapper main_content_area">
-			<div class="w3-container">
+			
+				<div class="clearfix main_content floatleft">
+				
+					<div class="w3-container">
   <h2>Slideshow Indicators</h2>
   <p>Using images to indicate how many slides there are in the slideshow, and highlight the image the user is currently viewing.</p>
 </div>
 
-<div class="w3-content" style="max-width:400px">
-  <img class="mySlides" src="slider/1.jpg" style="width:100%">
-  <img class="mySlides" src="slider/2.jpg" style="width:100%">
-  <img class="mySlides" src="slider/3.jpg" style="width:100%">
-<img class="mySlides" src="slider/4.jpg" style="width:100%">
+<div class="w3-content" style="max-width:1200px">
+  <img class="mySlides" src="slider/1.jpg" style="width:60%">
+  <img class="mySlides" src="slider/2.jpg" style="width:60%">
+  <img class="mySlides" src="slider/3.jpg" style="width:60%">
   <div class="w3-row-padding w3-section">
     <div class="w3-col s4">
-      <img class="demo w3-opacity w3-hover-opacity-off" src="slider/1.jpg" style="width:100%" onclick="currentDiv(1)">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="slider/1.jpg" style="width:50%" onclick="currentDiv(1)">
     </div>
     <div class="w3-col s4">
-      <img class="demo w3-opacity w3-hover-opacity-off" src="slider/2.jpg" style="width:100%" onclick="currentDiv(2)">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="slider/2.jpg" style="width:50%" onclick="currentDiv(2)">
     </div>
     <div class="w3-col s4">
-      <img class="demo w3-opacity w3-hover-opacity-off" src="slider/3.jpg" style="width:100%" onclick="currentDiv(3)">
-    </div>
-	<div class="w3-col s4">
-      <img class="demo w3-opacity w3-hover-opacity-off" src="slider/4.jpg" style="width:100%" onclick="currentDiv(3)">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="slider/3.jpg" style="width:50%" onclick="currentDiv(3)">
     </div>
   </div>
 </div>
-
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-     dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
-  }
-  x[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " w3-opacity-off";
-}
-</script>
-
-			
-			
-			
-			
-			
+					
+					<div class="clearfix content">
+						<div class="content_title"><h2>Welcome to Kharagpur Pvt. I.T.I</h2></div>
+						
+						<div class="clearfix single_content">
+							<div class="clearfix post_date floatleft">
+								
+							</div>
+							<div class="clearfix post_detail">
+								<h2><a href="">Welcome to Kharagpur Pvt.   I.T.I</a></h2>
+								<div class="clearfix post-meta">
+									
+								</div>
+								<div class="clearfix post_excerpt">
+									<img src="images/thumb.png" alt="">
+									<p>Industrial Training Institute is training institute which provide training 
+									in technical technical disciplines in India. Normally a person who has passed 
+									10 standard (Secondery Lavel) is eligible for admission to ITI. 
+									The objective of operating of ITI is provide technical manpower to industries. 
+									Students are trained in basic skills required for Technical Industry. 
+									ITI's provide training in technical disciplines like electrician, fitter, 
+									plumber etc. Student of engineering trade can go for higher studies like 
+									diploma in engineering. There are also specialized short term courses in 
+									Advanced Training Institute (ATI) which enhances the skills of candidates. 
+									ITI qualified student can run their own garage, motor/generator/transformer 
+									winding workshops or fabrication shops depending upon trade opted. </p>
+								</div>
+								
+							</div>
+						</div>
+						
+						
+						
+											
+					</div>
+					
+					
+				</div>
 				<div class="clearfix sidebar_container floatright">
 				
 					
@@ -259,6 +265,35 @@ function showDivs(n) {
 				});
 			});
 		</script>
+		<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-opacity-off";
+}
+</script>
+
 		<script type="text/javascript" src="js/placeholder_support_IE.js"></script>
 		
 <!--

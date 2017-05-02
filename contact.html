@@ -28,7 +28,8 @@
 				<div class="clearfix header_top">
 					<div class="clearfix logo floatleft">
 						<a href=""><h1><span></span>Kharagpur Pvt. Industrial Training Institute </h1></a>
-                                                                                                            <h3 style="color: #ffffff;">Wali Pur, NH-6, Kharagpur. Contact No : 9733322200 </h3>
+                                                                                                            <h3 style="color: #ffffff;">NH6,Sahachawk Word no.12, Kharagpur.Poschim Medini Pur, pincode-721301
+Contact-7001273957</h3>
                                   
 					</div>
 					
@@ -114,12 +115,25 @@
 								<p><textarea class="wpcf7-textarea" placeholder="Message*"></textarea></p>
 								<p><input class="wpcf7-submit" value="Submit" type="Submit"></p>
 							</form>
+							<?php
+							$mysqli = new mysqli('127.0.0.1', 'root', '','testdb');
+
+if ($mysqli->connect_error) {
+    die('Connect Error (' . $mysqli->connect_errno . ') '
+            . $mysqli->connect_error);
+}
+echo 'Connection OK';
+$sql = "SELECT roll,name,sub1,sub2 FROM testtab";
+$result = $mysqli->query($sql);
+$mysqli->close();
+?>
                                                                                                                                <table style="font-size: 16pt;" align="left">
                                                                                                                                 <tbody><tr>
                                                                                                                                     <td>Khargpur Pvt. I.T.I</td>
                                                                                                                                 </tr>
                                                                                                                                     <tr>
-                                                                                                                                    <td>Wali Pur,NH-6, Kharagpur.Paschim Medinipur.
+                                                                                                                                    <td>NH6,Sahachawk Word no.12, Kharagpur.Poschim Medini Pur, pincode-721301
+Contact-7001273957.
                                                                                                                             </td>
                                                                                                                                 </tr>
 
@@ -136,7 +150,7 @@
                                                                                                                                     <td>Email : XXXXXXXX</td>
                                                                                                                                 </tr>
                                                                                                                                 <tr>
-                                                                                                                                    <td>Phone : 9733322200 ; 9800098555</td>
+                                                                                                                                    <td>Phone : 7001273957</td>
                                                                                                                                 </tr>
                                                                                                                             </tbody></table>
 							

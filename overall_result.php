@@ -1,4 +1,4 @@
-﻿<!--
+<!--
 ---- Clean html template by http://WpFreeware.com
 ---- This is the main file (index.html).
 ---- You are allowed to change anything you like. Find out more Awesome Templates @ wpfreeware.com
@@ -46,7 +46,8 @@
 				<div class="clearfix header_top">
 					<div class="clearfix logo floatleft">
 						<a href=""><h1><span></span>Kharagpur Pvt. Industrial Training Institute </h1></a>
-                                                                                                            <h3 style="color: #ffffff;">Subhas Pally, Word No.19, Kharagpur. Contact No : 9733322200 </h3>
+                                                                                                            <h3 style="color: #ffffff;">NH6,Sahachawk Word no.12, Kharagpur.Poschim Medini Pur, pincode-721301
+Contact-7001273957</h3>
                                   
 					</div>
 					
@@ -157,38 +158,6 @@
 
                                                                                         </tbody>
                                                                                 </table>
-<?php
-/*    Using "mysqli" instead of "mysql" that is obsolete.
-*     Utilisation de "mysqli" à la place de "mysql" qui est obsolète.
-* Change the value of parameter 3 if you have set a password on the root userid
-* Changer la valeur du 3e paramètre si vous avez mis un mot de passe à root
-*/
-$mysqli = new mysqli('127.0.0.1', 'root', '','testdb');
-
-if ($mysqli->connect_error) {
-    die('Connect Error (' . $mysqli->connect_errno . ') '
-            . $mysqli->connect_error);
-}
-echo 'Connection OK';
-$sql = "SELECT roll,name,sub1,sub2 FROM testtab";
-$result = $mysqli->query($sql);
-ECHO "<table border=1>";
-ECHO "<tr><td>ROLL<TD>NAME<TD>SUB1<TD>SUB2";
-
-if ($result->num_rows > 0) {
-    // output data of each row
-while ($row = $result->fetch_assoc()){
-
-echo "<TR>"."<TD>".$row['roll']."<TD>".$row['name']."<TD>".$row['sub1']."<TD>".$row['sub2'];
-}
-  
-} else {
-    echo "0 results";
-}
-ECHO"</TABLE>";
-$mysqli->close();
-?>
-
                                                                                                         </div>
                                                                                                 </form>
 
