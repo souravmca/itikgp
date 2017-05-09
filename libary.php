@@ -4,7 +4,6 @@
 ---- You are allowed to change anything you like. Find out more Awesome Templates @ wpfreeware.com
 ---- Read License-readme.txt file to learn more.
 --><head>
-
 		<title>Kharagpur Pvt. I.T.I</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,42 +33,19 @@
 			<div class="clearfix wrapper main_content_area">
                                                                         <!--Customize Content-->
 				<div class="clearfix main_content floatleft">
-                                                                            <b style="font-size:24px; color:#09C; padding:10px 0 0 0px;">Extra Curricular activities</b><br><br>
-                                                                                Extra Curricular activities will goes here…
-																				
-
-																				<?php
-/*    Using "mysqli" instead of "mysql" that is obsolete.
-*     Utilisation de "mysqli" à la place de "mysql" qui est obsolète.
-* Change the value of parameter 3 if you have set a password on the root userid
-* Changer la valeur du 3e paramètre si vous avez mis un mot de passe à root
-*/
-$mysqli = new mysqli('127.0.0.1', 'root', '','testdb');
-
-if ($mysqli->connect_error) {
-    die('Connect Error (' . $mysqli->connect_errno . ') '
-            . $mysqli->connect_error);
-}
-echo 'Connection OK';
-$sql = "SELECT roll,name,sub1,sub2 FROM testtab";
-$result = $mysqli->query($sql);
-ECHO "<table border=1>";
-ECHO "<tr><td>ROLL<TD>NAME<TD>SUB1<TD>SUB2";
-
-if ($result->num_rows > 0) {
-    // output data of each row
-while ($row = $result->fetch_assoc()){
-
-echo "<TR>"."<TD>".$row['roll']."<TD>".$row['name']."<TD>".$row['sub1']."<TD>".$row['sub2'];
-}
-  
-} else {
-    echo "0 results";
-}
-ECHO"</TABLE>";
-$mysqli->close();
-?>
-
+                                                                            <b style="font-size:24px; color:#09C; padding:10px 0 0 0px;">Library</b><br><br>
+                                                                                The college Library has a collection of about thirty thousand books. The college also subscribes to a number of journals and periodicals which are on display in the library. 
+                                                                                Borrowing of books and reading facilities are available in the library and also in the departmental seminar libraries <br>
+                                                                                <div class="ctext2"><marquee style="" direction="up" scrollamount="2" onmouseover="this.stop()" onmouseout="this.start()" height="510px" width="680px">
+                                                                                <img src="lib/1.jpg">
+                                                                                <img src="lib/2.jpg">
+                                                                                <img src="lib/3.jpg">
+                                                                                <img src="lib/4.jpg">
+                                                                                <img src="lib/5.jpg">
+                                                                                <img src="lib/6.jpg">
+                                                                                <img src="lib/7.jpg">
+                                                                                </marquee>
+                                                                                            </div>
 					
 					
 					

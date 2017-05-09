@@ -4,7 +4,6 @@
 ---- You are allowed to change anything you like. Find out more Awesome Templates @ wpfreeware.com
 ---- Read License-readme.txt file to learn more.
 --><head>
-
 		<title>Kharagpur Pvt. I.T.I</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,42 +33,37 @@
 			<div class="clearfix wrapper main_content_area">
                                                                         <!--Customize Content-->
 				<div class="clearfix main_content floatleft">
-                                                                            <b style="font-size:24px; color:#09C; padding:10px 0 0 0px;">Extra Curricular activities</b><br><br>
-                                                                                Extra Curricular activities will goes here…
-																				
-
-																				<?php
-/*    Using "mysqli" instead of "mysql" that is obsolete.
-*     Utilisation de "mysqli" à la place de "mysql" qui est obsolète.
-* Change the value of parameter 3 if you have set a password on the root userid
-* Changer la valeur du 3e paramètre si vous avez mis un mot de passe à root
-*/
-$mysqli = new mysqli('127.0.0.1', 'root', '','testdb');
-
-if ($mysqli->connect_error) {
-    die('Connect Error (' . $mysqli->connect_errno . ') '
-            . $mysqli->connect_error);
-}
-echo 'Connection OK';
-$sql = "SELECT roll,name,sub1,sub2 FROM testtab";
-$result = $mysqli->query($sql);
-ECHO "<table border=1>";
-ECHO "<tr><td>ROLL<TD>NAME<TD>SUB1<TD>SUB2";
-
-if ($result->num_rows > 0) {
-    // output data of each row
-while ($row = $result->fetch_assoc()){
-
-echo "<TR>"."<TD>".$row['roll']."<TD>".$row['name']."<TD>".$row['sub1']."<TD>".$row['sub2'];
-}
-  
-} else {
-    echo "0 results";
-}
-ECHO"</TABLE>";
-$mysqli->close();
-?>
-
+               <b style="font-size:24px; color:#09C; padding:10px 0 0 0px;">Introduction of the Institute</b><br><br>
+                                                                        
+                                                        <div style="float:left; width:200px;">
+                                                                                            <div class="name_l">NAME OF THE INSTITUTE</div>
+                                                                                            <div class="name_l">ADDRESS OF THE INSTTINSTITUTE	</div>
+                                                                                            <div class="name_l">DATE OF ESTABLISHMENT</div>
+                                                                                            <div class="name_l">DGET FILE REF. NO:	</div>
+                                                                                            <div class="name_l">CODE ALLOTTED  BY DGET</div>
+                                                                                            <div class="name_l">CONTACT Nos.</div>
+                                                                                            <div class="name_l">MOBILE NO	</div>
+                                                                                            <div class="name_l">FAX NO	</div>
+                                                                                            <div class="name_l">E MAIL ID	</div>
+                                                                                            <div class="name_l">LOCATION- </div>
+                                                                                            <div class="name_l">APPROACH/ HOW TO REACH</div>
+                                                                        </div>
+                                                                                            <div style="">
+                                                                                            <div class="name"> KHARAGPUR PVT. INDUSTRIAL TRAINING INSTITUTE</div>
+                                                                                            <div class="name">NH6,Sahachawk Word no.12, Kharagpur.Poschim Medini Pur, pincode-721301</div>
+                                                                                            <div class="name"> &nbsp;</div>
+                                                                                            <div class="name">00-00-2000</div>
+                                                                                            <div class="name"> ----</div>
+                                                                                            <div class="name">----</div>
+                                                                                            <div class="name">7001273957</div>
+                                                                                            <div class="name">7001273957</div>
+                                                                                            <div class="name">  		</div>
+                                                                                            <div class="name">----</div>
+                                                                                            <div class="name">NH6</div>
+                                                                                            <div class="name"> Kharagpur Status to NH6 Sahachawk approx 30 Min by Auto or Bus</div> 														
+																							</div>
+                                                                                            
+                                    </div>
 					
 					
 					
@@ -77,14 +71,13 @@ $mysqli->close();
                                                                         <!--Customize Content-->
 				<div class="clearfix sidebar_container floatright">
 				
-					
-					
-			<div class="menu">
+					<div class="menu">
 <?php include 'sidemenu.php';?>
 </div>
-		
-				</div>
+					
 			</div>
+
+			
 		</section>
 		
 		<section id="footer_top_area">
@@ -152,6 +145,7 @@ $mysqli->close();
 -->	
 		
 	
+
 
 
 </body>

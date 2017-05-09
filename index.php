@@ -30,78 +30,9 @@
 	<body>
 	
 		<section id="header_area">
-			<div class="wrapper header">
-				<div class="clearfix header_top">
-					<div class="clearfix logo floatleft">
-						<a href=""><h1><span></span>Kharagpur Pvt. Industrial Training Institute </h1></a>
-                                                                                                           <h3 style="color: #ffffff;">NH6,Sahachawk Word no.12, Kharagpur.Poschim MediniPur, pincode-721301
-Contact-7001273957</h3>
-                                  
-					</div>
-					
-				</div>
-				<div class="header_bottom">
-                                    <nav>
-					<ul id="nav">
-			<li><a href="index.php"> Home</a></li>
-           <li id="dropdown"><a href="#"> About</a>
-            <ul>
-					<li><a href="about.html">Introduction of the institute</a></li>
-					<li><a href="chaiman.html">Chairman &amp; Members</a></li>
-					<li><a href="faculty_list.php">Faculty (Technical Staff)</a></li>
-					<li><a href="state.html">State Directorate</a></li>
-                    <li><a href="administrative.html">Administrative Staff</a></li>
-			 </ul>
-		</li>
-            <li id="dropdown"><a href="#"> Information</a>
-  <ul style="width:250px;">
-					<li><a href="trade.html">Trades Affiliated to NCVT and SCVT</a></li>
-					<li><a href="summary1.html">Summary of Trades 1</a></li>
-					<li><a href="summary2.html">Summary of Trades 2</a></li>
-					<li><a href="court.html">Court Case and Status</a></li>
-                    <li><a href="right.html">Right to Information</a></li>
-				</ul>
-			</li>
-			<li id="dropdown"><a href="#"> Infrastucture</a>
-            <ul>
-					<li><a href="libary.html">Library</a></li>
-					<li><a href="sport.html">Sports/Recreation</a></li>
-					<li><a href="curriculam.php">Extra Curricular activities</a></li>
-			  </ul>
-			</li>
-            <li id="dropdown"><a href="#"> Admission</a>
-            <ul>
-					<li><a href="application_form.html">Application Format</a></li>
-                    <li><a href="admision.html"> Admission Criteria</a></li>
-					<li><a href="ratings.html">Rating of Institute</a></li>
-					<li><a href="grievance.html">Grievance Redressal Mechanism</a></li>
-                    <li><a href="rules.html">General Rules &amp; Regulations</a></li>
-			  </ul>
-			</li>
-            <li id="dropdown"><a href="#"> Performance</a>
-            <ul>
-					<li><a href="quality.html">Quality Monitoring</a></li>
-					<li><a href="achievement.html">Achievements by Trainees</a></li>
-					<li><a href="overall_result.php">Overall Results</a></li>
-                    <li><a href="certificate.html">Certificates issued to Trainees</a></li>
-                    <li><a href="placement.html">Placement</a></li>
-			  </ul>
-			</li>
-            <li><a href="gallery.html"> Gallery</a>
-			</li>
-            <li><a href="fund.html"> Fund Status</a>
-			</li>
-            <li><a href="news.html"> News Events</a>
-			</li>
-            <li><a href="order.html"> Order Issued</a>
-			</li>
-			<li><a href="contact.php"> Contact</a>
-			</li>
-            
-      </ul><select class="selectnav" id="selectnav1"><option value="">-Navigation-</option><option value="http://localhost/itikgp/index.php"> Home</option><option value="http://localhost/itikgp/#"> About</option><option value="http://localhost/itikgp/about.html">- Introduction of the institute</option><option value="http://localhost/itikgp/chaiman.html">- Chairman &amp; Members</option><option value="http://localhost/itikgp/faculty_list.php">- Faculty (Technical Staff)</option><option value="http://localhost/itikgp/state.html">- State Directorate</option><option value="http://localhost/itikgp/administrative.html">- Administrative Staff</option><option value="http://localhost/itikgp/#"> Information</option><option value="http://localhost/itikgp/trade.html">- Trades Affiliated to NCVT and SCVT</option><option value="http://localhost/itikgp/summary1.html">- Summary of Trades 1</option><option value="http://localhost/itikgp/summary2.html">- Summary of Trades 2</option><option value="http://localhost/itikgp/court.html">- Court Case and Status</option><option value="http://localhost/itikgp/right.html">- Right to Information</option><option value="http://localhost/itikgp/#"> Infrastucture</option><option value="http://localhost/itikgp/libary.html">- Library</option><option value="http://localhost/itikgp/sport.html">- Sports/Recreation</option><option value="http://localhost/itikgp/curriculam.html">- Extra Curricular activities</option><option value="http://localhost/itikgp/#"> Admission</option><option value="http://localhost/itikgp/application_form.html">- Application Format</option><option value="http://localhost/itikgp/admision.html">-  Admission Criteria</option><option value="http://localhost/itikgp/ratings.html">- Rating of Institute</option><option value="http://localhost/itikgp/grievance.html">- Grievance Redressal Mechanism</option><option value="http://localhost/itikgp/rules.html">- General Rules &amp; Regulations</option><option value="http://localhost/itikgp/#"> Performance</option><option value="http://localhost/itikgp/quality.html">- Quality Monitoring</option><option value="http://localhost/itikgp/achievement.html">- Achievements by Trainees</option><option value="http://localhost/itikgp/overall_result.php">- Overall Results</option><option value="http://localhost/itikgp/certificate.html">- Certificates issued to Trainees</option><option value="http://localhost/itikgp/placement.html">- Placement</option><option value="http://localhost/itikgp/gallery.html"> Gallery</option><option value="http://localhost/itikgp/fund.html"> Fund Status</option><option value="http://localhost/itikgp/news.html"> News Events</option><option value="http://localhost/itikgp/order.html"> Order Issued</option><option value="http://localhost/itikgp/contact.php"> Contact</option></select>
-                                    </nav>
-				</div>
-			</div>
+			<div class="menu">
+<?php include 'menuinclude.php';?>
+</div>
 		</section>
 		
 		<section id="content_area">
@@ -174,41 +105,10 @@ Contact-7001273957</h3>
 				</div>
 				<div class="clearfix sidebar_container floatright">
 				
+					<div class="menu">
+<?php include 'sidemenu.php';?>
+</div>
 					
-					<div class="clearfix sidebar">
-						<div class="clearfix single_sidebar">
-							<div class="popular_post">
-								<div class="sidebar_title"><h2>Quick Links</h2></div>
-								<ul>
-                                                                                                                                                        <li><a href="about.html">Introduction of the Institute</a></li>
-                                                                                                                                                        <li><a href="industry.html"> Industry Institute Linkages</a></li>
-                                                                                                                                                        <li><a href="information.html">Schemes (CTS &amp; MES etc.under NCVT)</a></li>
-                                                                                                                                                        <li><a href="trade.html">Trades Affiliated to NCVT &amp; SCVT</a></li>
-                                                                                                                                                        <li><a href="summary1.html">Summary of Trades affiliated to NCVT</a></li>
-                                                                                                                                                        <li><a href="summary2.html"> Summary of Trades affiliated to SCVT</a></li>
-                                                                                                                                                        <li><a href="court.html">Court Case and Status</a></li>
-                                                                                                                                                        <li><a href="achievement.html">Achievements by Trainees</a></li>
-                                                                                                                                                        <li><a href="infrastructure.html">Electric Power Supply</a></li>
-                                                                                                                                                        <li><a href="trainee_list.php"> Record of Trainees</a></li>
-                                                                                                                                                        <li><a href="quality.html">  Quality Monitoring</a></li>
-                                                                                                                                                        <li><a href="overall_result.php">Overall Results</a></li>
-                                                                                                                                                        <li><a href="certificate.html">Details of certificates issued to Trainees<br></a></li>
-                                                                                                                                                        <li><a href="fund.html">Funds Status</a></li>
-                                                                                                                                                        <li><a href="order.html">DGET and State Government orders</a></li>
-                                                                                                                                                        <li><a href="ratings.html"> Rating of Institute by QCI</a></li>
-                                                                                                                                                </ul>
-							</div>
-							</div>
-						
-						<div class="clearfix single_sidebar">
-							<h2>Recent Post</h2>
-							<ul>
-								<li><a href="">We are introducing our new web site</a></li>
-								
-							</ul>
-						</div>
-					</div>
-				</div>
 			</div>
 		</section>
 		
@@ -306,3 +206,4 @@ function showDivs(n) {
 	
 
 </body>
+</html>

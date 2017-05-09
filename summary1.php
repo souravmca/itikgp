@@ -4,7 +4,6 @@
 ---- You are allowed to change anything you like. Find out more Awesome Templates @ wpfreeware.com
 ---- Read License-readme.txt file to learn more.
 --><head>
-
 		<title>Kharagpur Pvt. I.T.I</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,42 +33,35 @@
 			<div class="clearfix wrapper main_content_area">
                                                                         <!--Customize Content-->
 				<div class="clearfix main_content floatleft">
-                                                                            <b style="font-size:24px; color:#09C; padding:10px 0 0 0px;">Extra Curricular activities</b><br><br>
-                                                                                Extra Curricular activities will goes here…
-																				
+                                                                            <b style="font-size:24px; color:#09C; padding:10px 0 0 0px;">Summary of trades affiliated to NCVT</b><br><br>
+                                                                                        <table id="gradient-style" summary="Meeting Results">
+                                                                                            <thead>
+                                                                                                <tr>
+                                                                                                                <th>Name of the Trade</th>
+                                                                                                                <th>Shift intake capacity</th>
+                                                                                                                <th>Total No. of Units</th>
+                                                                                                                <th>DGET order No.</th>
+                                                                                                                <th>Remarks</th>
+                                                                                                        </tr>
+                                                                                            </thead>
 
-																				<?php
-/*    Using "mysqli" instead of "mysql" that is obsolete.
-*     Utilisation de "mysqli" à la place de "mysql" qui est obsolète.
-* Change the value of parameter 3 if you have set a password on the root userid
-* Changer la valeur du 3e paramètre si vous avez mis un mot de passe à root
-*/
-$mysqli = new mysqli('127.0.0.1', 'root', '','testdb');
+                                                                                            <tbody>
+                                                                                                        <tr>
+                                                                                                                <td>Surveyor</td>
+                                                                                                                <td>16</td>
+                                                                                                                <td>3</td>
+                                                                                                                <td>--</td>
+                                                                                                                <td> </td>
 
-if ($mysqli->connect_error) {
-    die('Connect Error (' . $mysqli->connect_errno . ') '
-            . $mysqli->connect_error);
-}
-echo 'Connection OK';
-$sql = "SELECT roll,name,sub1,sub2 FROM testtab";
-$result = $mysqli->query($sql);
-ECHO "<table border=1>";
-ECHO "<tr><td>ROLL<TD>NAME<TD>SUB1<TD>SUB2";
-
-if ($result->num_rows > 0) {
-    // output data of each row
-while ($row = $result->fetch_assoc()){
-
-echo "<TR>"."<TD>".$row['roll']."<TD>".$row['name']."<TD>".$row['sub1']."<TD>".$row['sub2'];
-}
-  
-} else {
-    echo "0 results";
-}
-ECHO"</TABLE>";
-$mysqli->close();
-?>
-
+                                                                                                        </tr>
+                                                                                                        <tr>
+                                                                                                        <td>Electrician</td>
+                                                                                                                <td>16</td>
+                                                                                                                <td>3</td>
+                                                                                                                <td>---</td>
+                                                                                                                <td> </td>
+                                                                                                        </tr>    </tbody>
+                                                                                        </table>
 					
 					
 					
